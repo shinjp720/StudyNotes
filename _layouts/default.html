@@ -12,6 +12,9 @@
 
 <body>
     <div id="container">
+        <!-- ハンバーガーメニュー -->
+        <button id="menu-toggle">☰</button>
+
         <aside id="sidebar">
             {% include navi.html %}
         </aside>
@@ -19,6 +22,8 @@
         <main id="content">
             {{ content }}
         </main>
+
+        <div id="overlay"></div><!-- オーバーレイ（スマホ用） -->
     </div>
 </body>
 
