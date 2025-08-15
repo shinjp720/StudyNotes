@@ -9,7 +9,7 @@
 #sidebar {
     width: 200px;
     background-color: #f4f4f4;
-    padding: 1em;
+    padding: 10px;
     border-right: 1px solid #ccc;
     position: fixed;
     top: 0;
@@ -21,8 +21,8 @@
 
 /* コンテンツ領域 */
 #content {
-    margin-left: 200px;
-    padding: 1em;
+    margin-left: 220px;
+    padding: 10px;
     flex: 1;
 }
 
