@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/main.js" defer=""></script>
+</head>
+
+<body>
+    <div id="container">
+        <aside id="sidebar">
+            {% include navi.md %}
+        </aside>
+
+        <main id="content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+
+</html>
