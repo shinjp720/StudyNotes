@@ -1,1 +1,9 @@
-- (中学1年数学)[jhs1.md]
+---
+layout: default
+title: Home
+---
+
+# ようこそ StudyNotes へ
+
+トップページです
+
