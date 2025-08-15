@@ -1,1 +1,1 @@
-# hello world!
+(中学1年数学)[jhs1.md]
